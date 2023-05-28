@@ -1,0 +1,207 @@
+
+.firstrow{
+    display: flex;
+    
+   
+}
+.firstrow .right #one{
+    display: flex;
+
+    float: right;
+    /* justify-content: right;
+    align-items: right; */
+    /* margin-left: 50px; */
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    
+    /* margin: 10px; */
+  }
+  .firstrow .right #one:hover{
+    background-color: grey;
+    overflow: hidden;
+    border-radius: 2px;
+  }
+
+  .firstrow #offone{
+    padding: 5pxpx;
+    width: 100px;
+    height: 40px;
+  }
+  /* .firstrow #off{
+    text-decoration: none;
+    padding: 10px 16px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    margin-left: 850px;
+} */
+/* .firstrowparttwo{
+    display: flex;
+    width: 50%;
+    float: right;
+} */
+/* .firstrowparttwo #firstone{
+    padding: 18px 16px;
+    margin-left: 50%;
+   max-width: 100%;
+    height: auto;
+    cursor: pointer;
+} */
+/* .firstrowparttwo #first{
+    padding: 18px 16px;
+    
+    width: 70px;
+    height: 60px;
+    cursor: pointer;
+   
+} */
+
+.secondrow{
+    display: flex;
+    width: 1000px;
+}
+.secondrow #second{
+    width: 730px;
+    height: 390px;
+    /* margin: 5px; */
+    padding: 5px 5px;
+    cursor: pointer;
+}
+/* .secondrow {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
+   */
+  /* div.secondrow a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+   */
+    .secondrow #second:hover {
+    background-color: #777;
+  } 
+  /* .secondrow{
+  margin: 4px, 4px;
+  padding: 4px;
+  background-color: #08c708;
+  width: 300px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  width: 100%;
+  } */
+  .secondrow {
+    scrollbar-width: auto;
+    background-color: rgb(73, 77, 73);
+    height: 150px;
+    width: 100px;
+    overflow-x: scroll;
+    width: 100%;
+    height: auto;
+}
+#heading{
+    
+    font-size: 30px;
+    margin: 20px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1586px) {
+    .thirdrow {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      /* justify-content: center; */
+    }
+  }
+.thirdrow{
+    display: flex;
+    float: left;
+    width: 1900px;
+    height: 200px;
+}
+.thirdrow {
+    scrollbar-width: auto;
+    background-color: rgb(245, 248, 245);
+    height: 150px;
+    width: 100px;
+    overflow-x: scroll;
+    width: 100%;
+    height: auto;
+    margin-left: 10px; 
+    /* margin-right: 60px; */
+    /* margin:  0px 70px; */
+
+}
+
+.thirdrow #third{
+    padding: 0px  24px;
+    /* margin-left: 20px; 
+    /* margin-right: 30px; */
+    /* margin-bottom: 20px;   */
+    width: 300px;
+    background-color: white;
+    height:280px;
+    /* margin: 19x; */
+    cursor: pointer;
+}
+.thirdrow #third:hover{
+    background-color: bisque;
+    border-color: aquamarine;
+    transform: scale(1.08);
+}
+
+
+
+@media screen and (max-width: 1586px) {
+    .secondrow {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 115%;
+      /* justify-content: center; */
+    }
+  }
+  .fiverow{
+    
+    scrollbar-width: 50%;
+    /* background-color: rgb(73, 77, 73); */
+    height: 550px;
+    width: 200px;
+    overflow-x: scroll;
+    width: 1000px;
+    height: 400px;
+  }
+  
+  @media screen and (max-width: 1586px) {
+    .fiverow {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+      /* justify-content: center; */
+    }
+  }
+  .fiverow #second:hover {
+    background-color: #777;
+  } 
+  .fiverow{
+    display: flex;
+    width: 2000px;
+}
+.fiverow #second{
+    width: 1030px;
+    height: 350px;
+    /* margin: 5px; */
+    padding: 5px 5px;
+    cursor: pointer;
+}
